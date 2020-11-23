@@ -7,7 +7,7 @@ declare module '@exodus/solana-spl-token' {
     TransactionSignature,
     Connection,
     Account,
-  } from '@solana/web3.js';
+  } from '@exodus/solana-web3.js';
   import BN from 'bn.js';
 
   // === src/index.js ===

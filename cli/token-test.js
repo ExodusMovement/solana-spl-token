@@ -7,7 +7,7 @@ import {
   BpfLoader,
   PublicKey,
   BPF_LOADER_PROGRAM_ID,
-} from '@solana/web3.js';
+} from '@exodus/solana-web3.js';
 
 import {Token, NATIVE_MINT} from '../src';
 import {url} from '../url';

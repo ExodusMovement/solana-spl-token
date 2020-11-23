@@ -1,6 +1,6 @@
 // @flow
 
-import {Account, Connection} from '@solana/web3.js';
+import {Account, Connection} from '@exodus/solana-web3.js';
 
 /**
  * Create a new system account and airdrop it some lamports

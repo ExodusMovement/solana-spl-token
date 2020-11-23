@@ -4,7 +4,7 @@
 [include]
 
 [libs]
-node_modules/@solana/web3.js/module.flow.js
+node_modules/@exodus/solana-web3.js/module.flow.js
 flow-typed/
 
 [options]

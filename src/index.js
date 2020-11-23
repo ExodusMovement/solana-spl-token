@@ -12,12 +12,12 @@ import {
   Transaction,
   TransactionInstruction,
   SYSVAR_RENT_PUBKEY,
-} from '@solana/web3.js';
+} from '@exodus/solana-web3.js';
 import type {
   Connection,
   Commitment,
   TransactionSignature,
-} from '@solana/web3.js';
+} from '@exodus/solana-web3.js';
 
 import * as Layout from './layout';
 import {sendAndConfirmTransaction} from './util/send-and-confirm-transaction';
