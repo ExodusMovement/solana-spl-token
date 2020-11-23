@@ -9,11 +9,11 @@ import {
   BPF_LOADER_PROGRAM_ID,
 } from '@solana/web3.js';
 
-import {Token, NATIVE_MINT} from '../client/token';
+import {Token, NATIVE_MINT} from '../src';
 import {url} from '../url';
-import {newAccountWithLamports} from '../client/util/new-account-with-lamports';
-import {sleep} from '../client/util/sleep';
-import {Store} from '../client/util/store';
+import {newAccountWithLamports} from '../src/util/new-account-with-lamports';
+import {sleep} from '../src/util/sleep';
+import {Store} from '../src/util/store';
 
 // Loaded token program's program id
 let programId: PublicKey;
@@ -95,7 +95,7 @@ async function GetPrograms(connection: Connection): Promise<PublicKey> {
     const config = await store.load('config.json');
     console.log('Using pre-loaded Token program');
     console.log(
-      '  Note: To reload program remove client/util/store/config.json',
+      '  Note: To reload program remove src/util/store/config.json',
     );
     tokenProgramId = new PublicKey(config.tokenProgramId);
   } catch (err) {

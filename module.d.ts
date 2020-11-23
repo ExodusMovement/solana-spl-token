@@ -1,4 +1,4 @@
-declare module '@solana/spl-token' {
+declare module '@exodus/solana-spl-token' {
   import {Buffer} from 'buffer';
   import {Layout} from 'buffer-layout';
   import {
@@ -10,7 +10,7 @@ declare module '@solana/spl-token' {
   } from '@solana/web3.js';
   import BN from 'bn.js';
 
-  // === client/token.js ===
+  // === src/index.js ===
   export const TOKEN_PROGRAM_ID: PublicKey;
 
   export class u64 extends BN {
