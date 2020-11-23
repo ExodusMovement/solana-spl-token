@@ -42,9 +42,9 @@
     "pretty:fix": "prettier --write '{,cli*/**/}*.[jt]s'"
   },
   "dependencies": {
-    "@exodus/solana-web3.js": "^0.87.1-exodus2",
-    "bn.js": "^5.0.0",
-    "buffer-layout": "^1.2.0"
+    "@exodus/buffer-layout": "^1.2.0-exodus1",
+    "@exodus/solana-web3.js": "^0.87.1-exodus3",
+    "bn.js": "^5.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",

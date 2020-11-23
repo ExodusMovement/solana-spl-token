@@ -1,6 +1,6 @@
 declare module '@exodus/solana-spl-token' {
   import {Buffer} from 'buffer';
-  import {Layout} from 'buffer-layout';
+  import {Layout} from '@exodus/buffer-layout';
   import {
     PublicKey,
     TransactionInstruction,

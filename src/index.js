@@ -4,7 +4,7 @@
 
 import assert from 'assert';
 import BN from 'bn.js';
-import * as BufferLayout from 'buffer-layout';
+import * as BufferLayout from '@exodus/buffer-layout';
 import {
   Account,
   PublicKey,
