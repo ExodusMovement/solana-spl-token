@@ -28,4 +28,6 @@ export const urlTls =
   (process.env.LIVE ? clusterApiUrl(cluster, true) : 'http://localhost:8899');
 
 export let walletUrl =
+// https://solana-example-webwallet.herokuapp.com is a SAMPLE URL ONLY
+// It is a clone of https://github.com/solana-labs/example-token/blob/v1.1/url.js
   process.env.WALLET_URL || 'https://solana-example-webwallet.herokuapp.com/';
